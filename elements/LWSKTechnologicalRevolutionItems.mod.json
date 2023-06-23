@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "LWSK Items",
+    "icon": {
+      "value": "CUSTOM:Pistol"
+    },
+    "showSearch": false
+  }
+}

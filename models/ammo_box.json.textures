@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ammo_pistol"
+      },
+      "name": "default"
+    },
+    "assault_rifle": {
+      "map": {
+        "0": "ammo_machine_gun"
+      },
+      "name": "assault_rifle"
+    },
+    "explosive_ammo": {
+      "map": {
+        "0": "ammo_machine_gun_explosive"
+      },
+      "name": "explosive_ammo"
+    }
+  }
+}

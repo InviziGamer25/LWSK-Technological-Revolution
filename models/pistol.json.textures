@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lwsk_soldier_cadet_future"
+      },
+      "name": "default"
+    }
+  }
+}

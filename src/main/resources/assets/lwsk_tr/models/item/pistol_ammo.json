@@ -1,0 +1,7 @@
+{
+  "parent": "lwsk_tr:custom/ammo_box",
+  "textures": {
+    "0": "lwsk_tr:blocks/ammo_pistol",
+    "particle": "lwsk_tr:items/pistol_ammo"
+  }
+}

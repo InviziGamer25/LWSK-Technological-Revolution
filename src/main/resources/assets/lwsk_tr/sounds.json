@@ -1,0 +1,12 @@
+{
+  "singlepistol": {
+    "category": "hostile",
+    "subtitle": "subtitles.singlepistol",
+    "sounds": [
+      {
+        "name": "lwsk_tr:single-pistol-gunshot-3-101923",
+        "stream": false
+      }
+    ]
+  }
+}

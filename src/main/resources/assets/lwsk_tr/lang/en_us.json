@@ -1,1 +1,18 @@
-{}
+{
+  "gamerule.grenadeActivated": "Grenade Activated",
+  "block.lwsk_tr.pistol_ammo_block": "Pistol Ammo Block",
+  "subtitles.singlepistol": "pistol1",
+  "entity.lwsk_tr.hetg_entity": "HET Grenade",
+  "item.lwsk_tr.pistol": "Pistol",
+  "item.lwsk_tr.hetg_item_2": "HET Grenade",
+  "block.lwsk_tr.pistol_block": "Pistol",
+  "item.lwsk_tr.hetg_entity_spawn_egg": "HET Grenade Spawn Egg",
+  "block.lwsk_tr.hetg": "HET Grenade",
+  "itemGroup.tablwsk_technological_revolution_blocks": "LWSK Blocks",
+  "gamerule.grenadeActivated.description": "Don\u0027t change this!!!",
+  "item.lwsk_tr.bullet": "Bullet",
+  "item.lwsk_tr.pistolnoammo": "Pistol",
+  "itemGroup.tablwsk_technological_revolution_items": "LWSK Items",
+  "item.lwsk_tr.hetg_item": "HET Grenade",
+  "item.lwsk_tr.pistol_ammo": "Pistol Ammo"
+}

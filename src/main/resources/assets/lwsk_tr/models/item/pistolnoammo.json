@@ -1,0 +1,7 @@
+{
+  "parent": "lwsk_tr:custom/pistol",
+  "textures": {
+    "0": "lwsk_tr:blocks/lwsk_soldier_cadet_future",
+    "particle": "lwsk_tr:items/pistol_item"
+  }
+}

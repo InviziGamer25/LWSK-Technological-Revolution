@@ -1,0 +1,7 @@
+{
+  "parent": "lwsk_tr:custom/he_tech_grenade",
+  "textures": {
+    "0": "lwsk_tr:blocks/hetg_texture",
+    "particle": "lwsk_tr:items/hteg"
+  }
+}

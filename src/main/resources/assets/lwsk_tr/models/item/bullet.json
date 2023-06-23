@@ -1,0 +1,7 @@
+{
+  "parent": "lwsk_tr:custom/bullet_item",
+  "textures": {
+    "0": "lwsk_tr:blocks/bullet",
+    "particle": "lwsk_tr:items/bullet"
+  }
+}

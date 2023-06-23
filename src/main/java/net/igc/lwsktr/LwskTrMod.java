@@ -26,6 +26,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.igc.lwsktr.init.LwskTrModTabs;
+import net.igc.lwsktr.init.LwskTrModItems;
+import net.igc.lwsktr.init.LwskTrModEntities;
+import net.igc.lwsktr.init.LwskTrModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -39,8 +44,11 @@ public class LwskTrMod {
 	private static int messageID = 0;
 
 	public LwskTrMod() {
-
+		LwskTrModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		LwskTrModBlocks.REGISTRY.register(bus);
+		LwskTrModItems.REGISTRY.register(bus);
+		LwskTrModEntities.REGISTRY.register(bus);
 
 	}
 

@@ -1,9 +1,591 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "HETG",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/hetg.json",
+          "src/main/java/net/igc/lwsktr/block/HETGBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/hetg.json",
+          "src/main/resources/assets/lwsk_tr/models/item/hetg.json"
+        ]
+      }
+    },
+    {
+      "name": "HETGItem",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/entity/HETGItemEntity.java",
+          "src/main/resources/assets/lwsk_tr/models/item/hetg_item.json",
+          "src/main/java/net/igc/lwsktr/item/HETGItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HETGEntity",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/client/renderer/HETGEntityRenderer.java",
+          "src/main/java/net/igc/lwsktr/entity/HETGEntityEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HETGEntityOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_entity_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGEntityOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HETGItemProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_item_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGItemProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HETGItemWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_item_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGItemWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrenadeActivated",
+      "type": "gamerule",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenadeActivated",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "HETGItem2",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_item_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/hetg_item_2.json",
+          "src/main/java/net/igc/lwsktr/item/HETGItem2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "HETGItem2Rightclicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_item_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGItem2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HETGOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HETGItemRangedItemUsed",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_item_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGItemRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HETGBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetg_block_destroyed_by_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/HETGBlockDestroyedByExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/bullet.json",
+          "src/main/java/net/igc/lwsktr/item/BulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "rangeditem",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/item/PistolItem.java",
+          "src/main/resources/assets/lwsk_tr/models/item/pistol.json",
+          "src/main/java/net/igc/lwsktr/client/renderer/PistolRenderer.java",
+          "src/main/java/net/igc/lwsktr/entity/PistolEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Pistolnoammo",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistolnoammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/item/PistolnoammoItem.java",
+          "src/main/resources/assets/lwsk_tr/models/item/pistolnoammo.json"
+        ]
+      }
+    },
+    {
+      "name": "DropIteminOffHand",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_itemin_off_hand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/DropIteminOffHandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PistolRangedItemUsed",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/PistolRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LWSKTechnologicalRevolutionItems",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_technological_revolution_items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LWSKTechnologicalRevolutionBlocks",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwsk_technological_revolution_blocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PistolBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/pistol_block.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/pistol_block.json",
+          "src/main/java/net/igc/lwsktr/block/PistolBlockBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/pistol_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PistolBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/PistolBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmoBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/pistol_ammo_block.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/pistol_ammo_block.json",
+          "src/main/resources/assets/lwsk_tr/models/block/pistol_ammo_block.json",
+          "src/main/java/net/igc/lwsktr/block/PistolAmmoBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmo",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/pistol_ammo.json",
+          "src/main/java/net/igc/lwsktr/item/PistolAmmoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmoBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/PistolAmmoBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PistolnoammoRightclicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistolnoammo_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/PistolnoammoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "singlepistol",
+      "files": [
+        "single-pistol-gunshot-3-101923"
+      ],
+      "category": "hostile",
+      "subtitle": "pistol1"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "gamerule.grenadeActivated": "Grenade Activated",
+      "block.lwsk_tr.pistol_ammo_block": "Pistol Ammo Block",
+      "subtitles.singlepistol": "pistol1",
+      "entity.lwsk_tr.hetg_entity": "HET Grenade",
+      "item.lwsk_tr.pistol": "Pistol",
+      "item.lwsk_tr.hetg_item_2": "HET Grenade",
+      "block.lwsk_tr.pistol_block": "Pistol",
+      "item.lwsk_tr.hetg_entity_spawn_egg": "HET Grenade Spawn Egg",
+      "block.lwsk_tr.hetg": "HET Grenade",
+      "itemGroup.tablwsk_technological_revolution_blocks": "LWSK Blocks",
+      "gamerule.grenadeActivated.description": "Don\u0027t change this!!!",
+      "item.lwsk_tr.bullet": "Bullet",
+      "item.lwsk_tr.pistolnoammo": "Pistol",
+      "itemGroup.tablwsk_technological_revolution_items": "LWSK Items",
+      "item.lwsk_tr.hetg_item": "HET Grenade",
+      "item.lwsk_tr.pistol_ammo": "Pistol Ammo"
+    }
   },
   "foldersRoot": {
     "name": "~",
