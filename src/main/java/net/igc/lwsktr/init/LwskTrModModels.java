@@ -21,12 +21,12 @@ import net.igc.lwsktr.client.model.ModelBullet;
 public class LwskTrModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelLWSK_Android.LAYER_LOCATION, ModelLWSK_Android::createBodyLayer);
 		event.registerLayerDefinition(ModelBullet.LAYER_LOCATION, ModelBullet::createBodyLayer);
+		event.registerLayerDefinition(ModelLWSK_Fire_Eater.LAYER_LOCATION, ModelLWSK_Fire_Eater::createBodyLayer);
+		event.registerLayerDefinition(ModelLWSK_Cadet.LAYER_LOCATION, ModelLWSK_Cadet::createBodyLayer);
 		event.registerLayerDefinition(ModelHE_Tech_Grenade_Entity_Converted.LAYER_LOCATION, ModelHE_Tech_Grenade_Entity_Converted::createBodyLayer);
 		event.registerLayerDefinition(ModelLWSK_Normal.LAYER_LOCATION, ModelLWSK_Normal::createBodyLayer);
-		event.registerLayerDefinition(ModelLWSK_Fire_Eater.LAYER_LOCATION, ModelLWSK_Fire_Eater::createBodyLayer);
 		event.registerLayerDefinition(ModelLWSK_Soldier.LAYER_LOCATION, ModelLWSK_Soldier::createBodyLayer);
-		event.registerLayerDefinition(ModelLWSK_Android.LAYER_LOCATION, ModelLWSK_Android::createBodyLayer);
-		event.registerLayerDefinition(ModelLWSK_Cadet.LAYER_LOCATION, ModelLWSK_Cadet::createBodyLayer);
 	}
 }

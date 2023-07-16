@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk_tr:block/floor_b_small"
+    },
+    "facing=east": {
+      "model": "lwsk_tr:block/floor_b_small",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk_tr:block/floor_b_small",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk_tr:block/floor_b_small",
+      "y": 270
+    }
+  }
+}

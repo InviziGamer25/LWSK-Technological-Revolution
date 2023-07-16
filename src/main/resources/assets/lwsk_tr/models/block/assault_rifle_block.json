@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk_tr:custom/machine_gun",
+  "textures": {
+    "all": "lwsk_tr:blocks/lwsk_soldier_future",
+    "particle": "lwsk_tr:blocks/lwsk_soldier_future",
+    "0": "lwsk_tr:blocks/lwsk_soldier_future"
+  }
+}

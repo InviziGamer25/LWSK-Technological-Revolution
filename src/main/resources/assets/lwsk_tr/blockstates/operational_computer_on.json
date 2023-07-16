@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk_tr:block/operational_computer_on"
+    },
+    "facing=east": {
+      "model": "lwsk_tr:block/operational_computer_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk_tr:block/operational_computer_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk_tr:block/operational_computer_on",
+      "y": 270
+    }
+  }
+}

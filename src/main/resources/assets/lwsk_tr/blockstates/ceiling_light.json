@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk_tr:block/ceiling_light"
+    },
+    "facing=east": {
+      "model": "lwsk_tr:block/ceiling_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk_tr:block/ceiling_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk_tr:block/ceiling_light",
+      "y": 270
+    }
+  }
+}

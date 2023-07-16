@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "black_concrete_powder",
+        "5": "reinforced_steel_bars"
+      },
+      "name": "default"
+    },
+    "gray": {
+      "map": {
+        "4": "gray_concrete_powder",
+        "5": "reinforced_steel_bars"
+      },
+      "name": "gray"
+    }
+  }
+}

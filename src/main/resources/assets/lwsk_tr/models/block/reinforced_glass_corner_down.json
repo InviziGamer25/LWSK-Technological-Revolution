@@ -1,0 +1,10 @@
+{
+  "parent": "lwsk_tr:custom/reinforced_glass_block_corner_down",
+  "textures": {
+    "all": "lwsk_tr:blocks/gray_stained_glass",
+    "particle": "lwsk_tr:blocks/gray_stained_glass",
+    "0": "lwsk_tr:blocks/gray_concrete_powder",
+    "1": "lwsk_tr:blocks/gray_stained_glass",
+    "2": "lwsk_tr:blocks/gray_stained_glass_pane_top"
+  }
+}

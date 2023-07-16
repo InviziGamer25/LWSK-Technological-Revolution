@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk_tr:custom/big_button",
+  "textures": {
+    "all": "lwsk_tr:blocks/big_button",
+    "particle": "lwsk_tr:blocks/big_button",
+    "0": "lwsk_tr:blocks/big_button"
+  }
+}

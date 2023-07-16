@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lwsk_tr:blocks/floor_a_bottom",
+    "particle": "lwsk_tr:blocks/floor_a_bottom"
+  }
+}

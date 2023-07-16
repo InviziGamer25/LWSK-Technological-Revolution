@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "machine_gun_item",
+    "customModelName": "machine_gun:default",
+    "name": "Assault Rifle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LWSKTechnologicalRevolutionItems"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 19,
+    "actionSound": {
+      "value": "CUSTOM:singlepistol"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "ExplosiveAssaultRifleRangedItemUsed"
+    },
+    "bulletPower": 3.0,
+    "bulletDamage": 0.5,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Bullet"
+    },
+    "bulletModel": "ModelBullet",
+    "customBulletModelTexture": "bullet.png",
+    "onBulletHitsBlock": {
+      "name": "ExplosiveAssaultRifleProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "ExplosiveAssaultRifleProjectileHitsBlock"
+    }
+  }
+}

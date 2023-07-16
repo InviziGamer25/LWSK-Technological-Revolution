@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lwsk_tr:blocks/gate_texture",
+    "up": "lwsk_tr:blocks/gate_texture",
+    "north": "lwsk_tr:blocks/gate_texture",
+    "east": "lwsk_tr:blocks/gate_texture",
+    "south": "lwsk_tr:blocks/gate_texture",
+    "west": "lwsk_tr:blocks/gate_texture",
+    "particle": "lwsk_tr:blocks/gate_texture"
+  }
+}

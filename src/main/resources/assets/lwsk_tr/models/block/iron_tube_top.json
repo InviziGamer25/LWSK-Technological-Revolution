@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk_tr:custom/tube",
+  "textures": {
+    "all": "lwsk_tr:blocks/iron_tube_texture",
+    "particle": "lwsk_tr:blocks/iron_tube_texture",
+    "0": "lwsk_tr:blocks/iron_tube_texture"
+  }
+}

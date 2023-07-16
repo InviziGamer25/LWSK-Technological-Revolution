@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lwsk_tr:blocks/ventilation",
+    "up": "lwsk_tr:blocks/ventilation",
+    "north": "lwsk_tr:blocks/tube_ventilation",
+    "east": "lwsk_tr:blocks/ventilation",
+    "south": "lwsk_tr:blocks/tube_ventilation",
+    "west": "lwsk_tr:blocks/ventilation",
+    "particle": "lwsk_tr:blocks/ventilation"
+  }
+}

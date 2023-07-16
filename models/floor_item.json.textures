@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_knife"
+      },
+      "name": "default"
+    },
+    "advanced_knife": {
+      "map": {
+        "0": "reinforced_knife"
+      },
+      "name": "advanced_knife"
+    }
+  }
+}

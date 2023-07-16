@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk_tr:custom/iron_chain",
+  "textures": {
+    "all": "lwsk_tr:blocks/iron_chain",
+    "particle": "lwsk_tr:blocks/iron_chain",
+    "0": "lwsk_tr:blocks/iron_chain"
+  }
+}

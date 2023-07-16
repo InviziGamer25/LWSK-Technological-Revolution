@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "lwsk_tr:blocks/blue_metal",
+    "top": "lwsk_tr:blocks/blue_metal",
+    "side": "lwsk_tr:blocks/blue_metal"
+  }
+}

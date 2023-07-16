@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk_tr:block/reinforced_glass_middle_up_fake"
+    },
+    "facing=east": {
+      "model": "lwsk_tr:block/reinforced_glass_middle_up_fake",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk_tr:block/reinforced_glass_middle_up_fake",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk_tr:block/reinforced_glass_middle_up_fake",
+      "y": 270
+    }
+  }
+}

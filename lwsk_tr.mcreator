@@ -3,7 +3,7 @@
     {
       "name": "HETG",
       "type": "block",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg",
@@ -19,7 +19,7 @@
     {
       "name": "HETGItem",
       "type": "rangeditem",
-      "sortid": 1,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_item",
@@ -34,7 +34,7 @@
     {
       "name": "HETGEntity",
       "type": "livingentity",
-      "sortid": 3,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_entity",
@@ -48,7 +48,7 @@
     {
       "name": "HETGEntityOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_entity_on_entity_tick_update",
@@ -83,7 +83,7 @@
     {
       "name": "HETGItemProjectileHitsBlock",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_item_projectile_hits_block",
@@ -114,7 +114,7 @@
     {
       "name": "HETGItemWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_item_while_projectile_flying_tick",
@@ -149,7 +149,7 @@
     {
       "name": "GrenadeActivated",
       "type": "gamerule",
-      "sortid": 19,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grenadeActivated",
@@ -161,7 +161,7 @@
     {
       "name": "HETGItem2",
       "type": "item",
-      "sortid": 7,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_item_2",
@@ -175,7 +175,7 @@
     {
       "name": "HETGItem2Rightclicked",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_item_2_rightclicked",
@@ -198,7 +198,7 @@
     {
       "name": "HETGOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_on_block_right_clicked",
@@ -233,7 +233,7 @@
     {
       "name": "HETGItemRangedItemUsed",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_item_ranged_item_used",
@@ -252,7 +252,7 @@
     {
       "name": "HETGBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hetg_block_destroyed_by_explosion",
@@ -283,7 +283,7 @@
     {
       "name": "Bullet",
       "type": "item",
-      "sortid": 12,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bullet",
@@ -297,7 +297,7 @@
     {
       "name": "Pistol",
       "type": "rangeditem",
-      "sortid": 13,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol",
@@ -313,7 +313,7 @@
     {
       "name": "Pistolnoammo",
       "type": "item",
-      "sortid": 14,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistolnoammo",
@@ -327,7 +327,7 @@
     {
       "name": "DropIteminOffHand",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_itemin_off_hand",
@@ -362,7 +362,7 @@
     {
       "name": "PistolRangedItemUsed",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol_ranged_item_used",
@@ -385,7 +385,7 @@
     {
       "name": "LWSKTechnologicalRevolutionItems",
       "type": "tab",
-      "sortid": 18,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lwsk_technological_revolution_items",
@@ -396,7 +396,7 @@
     {
       "name": "LWSKTechnologicalRevolutionBlocks",
       "type": "tab",
-      "sortid": 17,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lwsk_technological_revolution_blocks",
@@ -407,7 +407,7 @@
     {
       "name": "PistolBlock",
       "type": "block",
-      "sortid": 20,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol_block",
@@ -423,7 +423,7 @@
     {
       "name": "PistolBlockOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol_block_on_block_right_clicked",
@@ -458,7 +458,7 @@
     {
       "name": "PistolAmmoBlock",
       "type": "block",
-      "sortid": 22,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol_ammo_block",
@@ -474,7 +474,7 @@
     {
       "name": "PistolAmmo",
       "type": "item",
-      "sortid": 23,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol_ammo",
@@ -488,7 +488,7 @@
     {
       "name": "PistolAmmoBlockOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistol_ammo_block_on_block_right_clicked",
@@ -523,7 +523,7 @@
     {
       "name": "PistolnoammoRightclicked",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pistolnoammo_rightclicked",
@@ -554,6 +554,1663 @@
           }
         ]
       }
+    },
+    {
+      "name": "AmmoReload",
+      "type": "gamerule",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammoReload",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    },
+    {
+      "name": "AssaultRifle",
+      "type": "rangeditem",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/item/AssaultRifleItem.java",
+          "src/main/java/net/igc/lwsktr/client/renderer/AssaultRifleRenderer.java",
+          "src/main/resources/assets/lwsk_tr/models/item/assault_rifle.json",
+          "src/main/java/net/igc/lwsktr/entity/AssaultRifleEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRiflenoammo",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_riflenoammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/assault_riflenoammo.json",
+          "src/main/java/net/igc/lwsktr/item/AssaultRiflenoammoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleRangedItemUsed",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/AssaultRifleRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/assault_rifle_block.json",
+          "src/main/resources/assets/lwsk_tr/models/block/assault_rifle_block.json",
+          "src/main/java/net/igc/lwsktr/block/AssaultRifleBlockBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/assault_rifle_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/AssaultRifleBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleAmmo",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/item/AssaultRifleAmmoItem.java",
+          "src/main/resources/assets/lwsk_tr/models/item/assault_rifle_ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleAmmoBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_ammo_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/assault_rifle_ammo_block.json",
+          "src/main/resources/assets/lwsk_tr/models/item/assault_rifle_ammo_block.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/assault_rifle_ammo_block.json",
+          "src/main/java/net/igc/lwsktr/block/AssaultRifleAmmoBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleAmmoBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_ammo_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/AssaultRifleAmmoBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AssaultRiffleAmmoRightClicked",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_riffle_ammo_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/AssaultRiffleAmmoRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifle",
+      "type": "rangeditem",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/item/ExplosiveAssaultRifleItem.java",
+          "src/main/java/net/igc/lwsktr/client/renderer/ExplosiveAssaultRifleRenderer.java",
+          "src/main/java/net/igc/lwsktr/entity/ExplosiveAssaultRifleEntity.java",
+          "src/main/resources/assets/lwsk_tr/models/item/explosive_assault_rifle.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/ExplosiveAssaultRifleProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleRangedItemUsed",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/ExplosiveAssaultRifleRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleAmmo",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/item/ExplosiveAssaultRifleAmmoItem.java",
+          "src/main/resources/assets/lwsk_tr/models/item/explosive_assault_rifle_ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleAmmoBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_ammo_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/ExplosiveAssaultRifleAmmoBlockBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/explosive_assault_rifle_ammo_block.json",
+          "src/main/resources/assets/lwsk_tr/models/block/explosive_assault_rifle_ammo_block.json",
+          "src/main/resources/assets/lwsk_tr/models/item/explosive_assault_rifle_ammo_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleAmmoBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_ammo_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/ExplosiveAssaultRifleAmmoBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/explosive_assault_rifle_block.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/explosive_assault_rifle_block.json",
+          "src/main/resources/assets/lwsk_tr/models/item/explosive_assault_rifle_block.json",
+          "src/main/java/net/igc/lwsktr/block/ExplosiveAssaultRifleBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveAssaultRifleBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_assault_rifle_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/ExplosiveAssaultRifleBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FloorA",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a.json",
+          "src/main/java/net/igc/lwsktr/block/FloorABlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_a.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_a.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorACorner",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_a_corner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_corner.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_a_corner.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_a_corner.json",
+          "src/main/java/net/igc/lwsktr/block/FloorACornerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FloorABottom",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_a_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_a_bottom.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_a_bottom.json",
+          "src/main/java/net/igc/lwsktr/block/FloorABottomBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorASmall",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_a_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_a_small.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_small.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_a_small.json",
+          "src/main/java/net/igc/lwsktr/block/FloorASmallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FloorAStairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_a_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/FloorAStairsBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_stairs_outer.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_a_stairs.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_a_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorASlab",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_a_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_slab_top.json",
+          "src/main/java/net/igc/lwsktr/block/FloorASlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_slab_full.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_a_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_a_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_a_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorB",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/floor_b.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_b.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_b.json",
+          "src/main/java/net/igc/lwsktr/block/FloorBBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FloorBCorner",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_b_corner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/floor_b_corner.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_b_corner.json",
+          "src/main/java/net/igc/lwsktr/block/FloorBCornerBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_b_corner.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorBBottom",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_b_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_b_bottom.json",
+          "src/main/java/net/igc/lwsktr/block/FloorBBottomBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_b_bottom.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_b_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorBSmall",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_b_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_b_small.json",
+          "src/main/java/net/igc/lwsktr/block/FloorBSmallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_b_small.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_b_small.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorCCorner",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_c_corner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/floor_c_corner.json",
+          "src/main/java/net/igc/lwsktr/block/FloorCCornerBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_c_corner.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_c_corner.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorCBottom",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_c_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/floor_c_bottom.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_c_bottom.json",
+          "src/main/java/net/igc/lwsktr/block/FloorCBottomBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_c_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorCSmall",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_c_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/floor_c_small.json",
+          "src/main/java/net/igc/lwsktr/block/FloorCSmallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_c_small.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_c_small.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorD",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/FloorDBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_d.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_d.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorDStairs",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_d_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_d_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_d_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d_stairs_inner.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d_stairs_outer.json",
+          "src/main/java/net/igc/lwsktr/block/FloorDStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FloorDSlab",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_d_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/floor_d_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d_slab_full.json",
+          "src/main/java/net/igc/lwsktr/block/FloorDSlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/floor_d_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/floor_d_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperTube",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/copper_tube.json",
+          "src/main/resources/assets/lwsk_tr/models/block/copper_tube.json",
+          "src/main/java/net/igc/lwsktr/block/CopperTubeBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/copper_tube.json"
+        ]
+      }
+    },
+    {
+      "name": "IronTube",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/iron_tube.json",
+          "src/main/resources/assets/lwsk_tr/models/block/iron_tube.json",
+          "src/main/resources/assets/lwsk_tr/models/item/iron_tube.json",
+          "src/main/java/net/igc/lwsktr/block/IronTubeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Vent",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/vent.json",
+          "src/main/resources/assets/lwsk_tr/models/block/vent.json",
+          "src/main/java/net/igc/lwsktr/block/VentBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/vent.json"
+        ]
+      }
+    },
+    {
+      "name": "VentTube",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/VentTubeBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/vent_tube.json",
+          "src/main/resources/assets/lwsk_tr/models/item/vent_tube.json",
+          "src/main/resources/assets/lwsk_tr/models/block/vent_tube.json"
+        ]
+      }
+    },
+    {
+      "name": "RustyVent",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_vent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/rusty_vent.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/rusty_vent.json",
+          "src/main/java/net/igc/lwsktr/block/RustyVentBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/rusty_vent.json"
+        ]
+      }
+    },
+    {
+      "name": "RustyVentTube",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_vent_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/rusty_vent_tube.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/rusty_vent_tube.json",
+          "src/main/java/net/igc/lwsktr/block/RustyVentTubeBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/rusty_vent_tube.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayMetal",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_metal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/GrayMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/gray_metal.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/gray_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayMetalStairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/gray_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_stairs_outer.json",
+          "src/main/java/net/igc/lwsktr/block/GrayMetalStairsBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/gray_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayMetalSlab",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/gray_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/item/gray_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_slab_full.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_slab_top.json",
+          "src/main/java/net/igc/lwsktr/block/GrayMetalSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackMetal",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/black_metal.json",
+          "src/main/java/net/igc/lwsktr/block/BlackMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/item/black_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackMetalStairs",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_stairs_outer.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_stairs_inner.json",
+          "src/main/java/net/igc/lwsktr/block/BlackMetalStairsBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/black_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/black_metal_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackMetalSlab",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_slab_top.json",
+          "src/main/java/net/igc/lwsktr/block/BlackMetalSlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/black_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/black_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayMetalWall",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/gray_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_wall_inventory.json",
+          "src/main/java/net/igc/lwsktr/block/GrayMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_wall_side_tall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/gray_metal_wall_post.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/gray_metal_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackMetalWall",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/black_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_wall_inventory.json",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_wall_side_tall.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/black_metal_wall.json",
+          "src/main/java/net/igc/lwsktr/block/BlackMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/black_metal_wall_post.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenMetal",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/green_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/item/green_metal.json",
+          "src/main/java/net/igc/lwsktr/block/GreenMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenMetalStairs",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/green_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_stairs_outer.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_stairs_inner.json",
+          "src/main/resources/assets/lwsk_tr/models/item/green_metal_stairs.json",
+          "src/main/java/net/igc/lwsktr/block/GreenMetalStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenMetalSlab",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/green_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_slab_full.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_slab_top.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/green_metal_slab.json",
+          "src/main/java/net/igc/lwsktr/block/GreenMetalSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenMetalWall",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/green_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/green_metal_wall.json",
+          "src/main/java/net/igc/lwsktr/block/GreenMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_wall_post.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_wall_inventory.json",
+          "src/main/resources/assets/lwsk_tr/models/block/green_metal_wall_side_tall.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueMetal",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_metal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/BlueMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/blue_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/item/blue_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueMetalStairs",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_stairs_outer.json",
+          "src/main/resources/assets/lwsk_tr/models/item/blue_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/blue_metal_stairs.json",
+          "src/main/java/net/igc/lwsktr/block/BlueMetalStairsBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueMetalSlab",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/BlueMetalSlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/blue_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_slab_top.json",
+          "src/main/resources/assets/lwsk_tr/models/item/blue_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_slab_full.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueMetalWall",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/blue_metal_wall.json",
+          "src/main/java/net/igc/lwsktr/block/BlueMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_wall_side_tall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_wall_inventory.json",
+          "src/main/resources/assets/lwsk_tr/models/item/blue_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/blue_metal_wall_post.json"
+        ]
+      }
+    },
+    {
+      "name": "RedMetal",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/red_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal.json",
+          "src/main/java/net/igc/lwsktr/block/RedMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/red_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "RedMetalStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/red_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_stairs_outer.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_stairs_inner.json",
+          "src/main/java/net/igc/lwsktr/block/RedMetalStairsBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/red_metal_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "RedMetalSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/RedMetalSlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_slab_top.json",
+          "src/main/resources/assets/lwsk_tr/models/item/red_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/red_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_slab_full.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "RedMetalWall",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/item/red_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/red_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_wall_post.json",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_wall_inventory.json",
+          "src/main/java/net/igc/lwsktr/block/RedMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/red_metal_wall_side_tall.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowMetal",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/yellow_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal.json",
+          "src/main/java/net/igc/lwsktr/block/YellowMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/yellow_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowMetalStairs",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/yellow_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_stairs_inner.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/yellow_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_stairs_outer.json",
+          "src/main/java/net/igc/lwsktr/block/YellowMetalStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowMetalSlab",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/yellow_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_slab_top.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_slab_full.json",
+          "src/main/java/net/igc/lwsktr/block/YellowMetalSlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/yellow_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowMetalWall",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_wall_post.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/yellow_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_wall_inventory.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/yellow_metal_wall_side_tall.json",
+          "src/main/java/net/igc/lwsktr/block/YellowMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/yellow_metal_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedStructure",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_structure.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_structure.json",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_structure.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedStructureBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedStructureLight",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_structure_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_structure_light.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_structure_light.json",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_structure_light.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedStructureLightBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGate",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_gate.json",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_gate.json",
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_gate.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SmallReinforcedGlass",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_reinforced_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/small_reinforced_glass.json",
+          "src/main/resources/assets/lwsk_tr/models/block/small_reinforced_glass.json",
+          "src/main/java/net/igc/lwsktr/block/SmallReinforcedGlassBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/small_reinforced_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassCornerTop",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_corner_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_corner_top.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassCornerTopBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_corner_top.json",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_corner_top.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassCornerDown",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_corner_down",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_corner_down.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassCornerDownBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_corner_down.json",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_corner_down.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassCornerMiddle",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_corner_middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_corner_middle.json",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_corner_middle.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassCornerMiddleBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_corner_middle.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassMiddle",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_middle.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassMiddleBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_middle.json",
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_middle.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassMiddleUp",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_middle_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassMiddleUpBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_middle_up.json",
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_middle_up.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_middle_up.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassMiddleDown",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_middle_down",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_middle_down.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassMiddleDownBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_middle_down.json",
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_middle_down.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassMiddleUpFake",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_middle_up_fake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_middle_up_fake.json",
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_middle_up_fake.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassMiddleUpFakeBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_middle_up_fake.json"
+        ]
+      }
+    },
+    {
+      "name": "IronChain",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_chain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/iron_chain.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/iron_chain.json",
+          "src/main/java/net/igc/lwsktr/block/IronChainBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/iron_chain.json"
+        ]
+      }
+    },
+    {
+      "name": "CeilingLight",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/ceiling_light.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/ceiling_light.json",
+          "src/main/java/net/igc/lwsktr/block/CeilingLightBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/ceiling_light.json"
+        ]
+      }
+    },
+    {
+      "name": "OperationalComputerOff",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operational_computer_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/operational_computer_off.json",
+          "src/main/java/net/igc/lwsktr/block/OperationalComputerOffBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/operational_computer_off.json",
+          "src/main/resources/assets/lwsk_tr/models/block/operational_computer_off.json"
+        ]
+      }
+    },
+    {
+      "name": "OperationalComputerOn",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operational_computer_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/blockstates/operational_computer_on.json",
+          "src/main/java/net/igc/lwsktr/block/OperationalComputerOnBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/operational_computer_on.json",
+          "src/main/resources/assets/lwsk_tr/models/item/operational_computer_on.json"
+        ]
+      }
+    },
+    {
+      "name": "OperationalComputerOffOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operational_computer_off_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/OperationalComputerOffOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlassBig",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_big",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_glass_big.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGlassBigBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_glass_big.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_glass_big.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperTubeTop",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tube_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/copper_tube_top.json",
+          "src/main/resources/assets/lwsk_tr/models/block/copper_tube_top.json",
+          "src/main/java/net/igc/lwsktr/block/CopperTubeTopBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/copper_tube_top.json"
+        ]
+      }
+    },
+    {
+      "name": "IronTubeTop",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_tube_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/iron_tube_top.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/iron_tube_top.json",
+          "src/main/resources/assets/lwsk_tr/models/block/iron_tube_top.json",
+          "src/main/java/net/igc/lwsktr/block/IronTubeTopBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGateBlock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gate_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/reinforced_gate_block.json",
+          "src/main/java/net/igc/lwsktr/block/ReinforcedGateBlockBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/reinforced_gate_block.json",
+          "src/main/resources/assets/lwsk_tr/models/item/reinforced_gate_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BigButton",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/BigButtonBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/big_button.json",
+          "src/main/resources/assets/lwsk_tr/models/item/big_button.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/big_button.json"
+        ]
+      }
+    },
+    {
+      "name": "BigButtonPower",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_button_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/block/BigButtonPowerBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/item/big_button_power.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/big_button_power.json",
+          "src/main/resources/assets/lwsk_tr/models/block/big_button_power.json"
+        ]
+      }
+    },
+    {
+      "name": "BigButtonOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_button_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/igc/lwsktr/procedures/BigButtonOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteMetal",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal.json",
+          "src/main/resources/assets/lwsk_tr/models/item/white_metal.json",
+          "src/main/java/net/igc/lwsktr/block/WhiteMetalBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/white_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteMetalStairs",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_stairs.json",
+          "src/main/java/net/igc/lwsktr/block/WhiteMetalStairsBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_stairs_outer.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/white_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/item/white_metal_stairs.json",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteMetalSlab",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/item/white_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_slab.json",
+          "src/main/java/net/igc/lwsktr/block/WhiteMetalSlabBlock.java",
+          "src/main/resources/assets/lwsk_tr/blockstates/white_metal_slab.json",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_slab_top.json",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteMetalWall",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_wall_side_tall.json",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_wall_post.json",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_wall_inventory.json",
+          "src/main/resources/assets/lwsk_tr/blockstates/white_metal_wall.json",
+          "src/main/resources/assets/lwsk_tr/models/item/white_metal_wall.json",
+          "src/main/java/net/igc/lwsktr/block/WhiteMetalWallBlock.java",
+          "src/main/resources/assets/lwsk_tr/models/block/white_metal_wall.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -565,26 +2222,135 @@
       ],
       "category": "hostile",
       "subtitle": "pistol1"
+    },
+    {
+      "name": "ammoremove",
+      "files": [
+        "ammo-loaded-into-magazine-1-39781"
+      ],
+      "category": "master",
+      "subtitle": "removemagazine"
+    },
+    {
+      "name": "ammoreload",
+      "files": [
+        "1911-reload-6248"
+      ],
+      "category": "master",
+      "subtitle": "loadmagazine"
+    },
+    {
+      "name": "shootsgun9mm",
+      "files": [
+        "9mm-pistol-shot-6349"
+      ],
+      "category": "master",
+      "subtitle": "pistol9mm"
     }
   ],
   "language_map": {
     "en_us": {
-      "gamerule.grenadeActivated": "Grenade Activated",
-      "block.lwsk_tr.pistol_ammo_block": "Pistol Ammo Block",
-      "subtitles.singlepistol": "pistol1",
-      "entity.lwsk_tr.hetg_entity": "HET Grenade",
-      "item.lwsk_tr.pistol": "Pistol",
-      "item.lwsk_tr.hetg_item_2": "HET Grenade",
-      "block.lwsk_tr.pistol_block": "Pistol",
-      "item.lwsk_tr.hetg_entity_spawn_egg": "HET Grenade Spawn Egg",
-      "block.lwsk_tr.hetg": "HET Grenade",
+      "block.lwsk_tr.black_metal_slab": "Black Metal Slab",
+      "block.lwsk_tr.big_button": "Big Button",
+      "block.lwsk_tr.floor_b_corner": "Floor B",
+      "block.lwsk_tr.floor_c_corner": "Floor C",
+      "subtitles.shootsgun9mm": "pistol9mm",
+      "block.lwsk_tr.floor_a_small": "Floor A",
       "itemGroup.tablwsk_technological_revolution_blocks": "LWSK Blocks",
-      "gamerule.grenadeActivated.description": "Don\u0027t change this!!!",
-      "item.lwsk_tr.bullet": "Bullet",
-      "item.lwsk_tr.pistolnoammo": "Pistol",
-      "itemGroup.tablwsk_technological_revolution_items": "LWSK Items",
+      "block.lwsk_tr.floor_a_corner": "Floor A",
+      "block.lwsk_tr.green_metal_slab": "Green Metal Slab",
+      "block.lwsk_tr.vent": "Vent",
+      "block.lwsk_tr.iron_tube_top": "Iron Tube",
       "item.lwsk_tr.hetg_item": "HET Grenade",
-      "item.lwsk_tr.pistol_ammo": "Pistol Ammo"
+      "block.lwsk_tr.rusty_vent": "Rusty Vent",
+      "block.lwsk_tr.operational_computer_on": "Operational Computer",
+      "block.lwsk_tr.floor_a_slab": "Floor A Slab",
+      "block.lwsk_tr.reinforced_glass_middle_down": "Small Reinforced Glass",
+      "block.lwsk_tr.copper_tube": "Copper Tube",
+      "item.lwsk_tr.explosive_assault_rifle": "Assault Rifle",
+      "block.lwsk_tr.white_metal_wall": "White Metal Wall",
+      "item.lwsk_tr.assault_rifle_ammo": "Assault Rifle Ammo",
+      "block.lwsk_tr.red_metal_slab": "Red Metal Slab",
+      "item.lwsk_tr.hetg_item_2": "HET Grenade",
+      "block.lwsk_tr.reinforced_structure_light": "Reinforced Structure",
+      "block.lwsk_tr.reinforced_glass_corner_down": "Small Reinforced Glass",
+      "block.lwsk_tr.floor_d": "Floor D",
+      "block.lwsk_tr.white_metal_stairs": "White Metal Stairs",
+      "item.lwsk_tr.pistolnoammo": "Pistol",
+      "block.lwsk_tr.floor_b": "Floor B",
+      "block.lwsk_tr.yellow_metal": "Yellow Metal",
+      "block.lwsk_tr.floor_a": "Floor A",
+      "block.lwsk_tr.assault_rifle_ammo_block": "Assault Rifle Ammo",
+      "gamerule.grenadeActivated": "Grenade Activated",
+      "block.lwsk_tr.gray_metal_slab": "Gray Metal Slab",
+      "block.lwsk_tr.green_metal": "Green Metal",
+      "block.lwsk_tr.blue_metal_stairs": "Blue Metal Stairs",
+      "entity.lwsk_tr.hetg_entity": "HET Grenade",
+      "block.lwsk_tr.iron_tube": "Iron Tube",
+      "block.lwsk_tr.reinforced_glass_middle_up_fake": "Small Reinforced Glass",
+      "block.lwsk_tr.white_metal": "White Metal",
+      "block.lwsk_tr.floor_c_small": "Floor C",
+      "block.lwsk_tr.small_reinforced_glass": "Small Reinforced Glass",
+      "block.lwsk_tr.reinforced_glass_middle_up": "Small Reinforced Glass",
+      "block.lwsk_tr.reinforced_gate": "Reinforced Gate",
+      "block.lwsk_tr.rusty_vent_tube": "Rusty Vent with Tube",
+      "block.lwsk_tr.yellow_metal_stairs": "Yellow Metal Stairs",
+      "item.lwsk_tr.pistol": "Pistol",
+      "block.lwsk_tr.blue_metal_wall": "Blue Metal Wall",
+      "block.lwsk_tr.pistol_block": "Pistol",
+      "block.lwsk_tr.operational_computer_off": "Operational Computer",
+      "gamerule.grenadeActivated.description": "Don\u0027t change this!!!",
+      "block.lwsk_tr.yellow_metal_slab": "Yellow Metal Slab",
+      "block.lwsk_tr.big_button_power": "Big Button",
+      "block.lwsk_tr.gray_metal": "Gray Metal",
+      "block.lwsk_tr.green_metal_wall": "Green Metal Wall",
+      "subtitles.ammoremove": "removemagazine",
+      "block.lwsk_tr.reinforced_gate_block": "Reinforced Gate Block",
+      "block.lwsk_tr.black_metal": "Black Metal",
+      "block.lwsk_tr.floor_a_stairs": "Floor A Stairs",
+      "block.lwsk_tr.vent_tube": "Vent with Tube",
+      "block.lwsk_tr.black_metal_wall": "Black Metal Wall",
+      "block.lwsk_tr.hetg": "HET Grenade",
+      "gamerule.ammoReload": "Reload Ammo 1-2",
+      "block.lwsk_tr.floor_d_stairs": "Floor D Stairs",
+      "subtitles.ammoreload": "loadmagazine",
+      "block.lwsk_tr.white_metal_slab": "White Metal Slab",
+      "block.lwsk_tr.floor_d_slab": "Floor D Slab",
+      "block.lwsk_tr.reinforced_glass_corner_top": "Small Reinforced Glass",
+      "block.lwsk_tr.ceiling_light": "Ceiling Light",
+      "block.lwsk_tr.pistol_ammo_block": "Pistol Ammo",
+      "subtitles.singlepistol": "pistol1",
+      "gamerule.ammoReload.description": "Never put your hands here!",
+      "block.lwsk_tr.floor_a_bottom": "Floor A",
+      "block.lwsk_tr.reinforced_glass_corner_middle": "Small Reinforced Glass",
+      "block.lwsk_tr.green_metal_stairs": "Green Metal Stairs",
+      "block.lwsk_tr.explosive_assault_rifle_ammo_block": "Assault Rifle Ammo",
+      "block.lwsk_tr.iron_chain": "Iron Chain",
+      "block.lwsk_tr.floor_c_bottom": "Floor C",
+      "block.lwsk_tr.floor_b_small": "Floor B",
+      "item.lwsk_tr.assault_rifle": "Assault Rifle",
+      "block.lwsk_tr.blue_metal": "Blue Metal",
+      "block.lwsk_tr.reinforced_structure": "Reinforced Structure",
+      "item.lwsk_tr.assault_riflenoammo": "Assault Rifle",
+      "item.lwsk_tr.bullet": "Bullet",
+      "block.lwsk_tr.explosive_assault_rifle_block": "Explosive Assault Rifle",
+      "block.lwsk_tr.reinforced_glass_middle": "Small Reinforced Glass",
+      "block.lwsk_tr.black_metal_stairs": "Black Metal Stairs",
+      "block.lwsk_tr.red_metal": "Red Metal",
+      "item.lwsk_tr.hetg_entity_spawn_egg": "HET Grenade Spawn Egg",
+      "block.lwsk_tr.red_metal_wall": "Red Metal Wall",
+      "block.lwsk_tr.red_metal_stairs": "Red Metal Stairs",
+      "itemGroup.tablwsk_technological_revolution_items": "LWSK Items",
+      "item.lwsk_tr.pistol_ammo": "Pistol Ammo",
+      "block.lwsk_tr.copper_tube_top": "Copper Tube",
+      "block.lwsk_tr.reinforced_glass_big": "Small Reinforced Glass",
+      "block.lwsk_tr.floor_b_bottom": "Floor B",
+      "block.lwsk_tr.yellow_metal_wall": "Yellow Metal Wall",
+      "block.lwsk_tr.assault_rifle_block": "Assault Rifle",
+      "block.lwsk_tr.gray_metal_stairs": "Gray Metal Stairs",
+      "block.lwsk_tr.gray_metal_wall": "Gray Metal Wall",
+      "block.lwsk_tr.blue_metal_slab": "Blue Metal Slab",
+      "item.lwsk_tr.explosive_assault_rifle_ammo": "Assault Rifle Ammo"
     }
   },
   "foldersRoot": {
@@ -605,6 +2371,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.igc.lwsktr",
     "lockBaseModFiles": false
   },

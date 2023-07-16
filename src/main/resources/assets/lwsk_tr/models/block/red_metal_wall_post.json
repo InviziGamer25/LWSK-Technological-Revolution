@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "lwsk_tr:blocks/red_metal",
+    "particle": "lwsk_tr:blocks/red_metal"
+  }
+}

@@ -17,7 +17,7 @@
     "shootConstantly": false,
     "usageCount": 10,
     "actionSound": {
-      "value": "CUSTOM:singlepistol"
+      "value": "CUSTOM:shootsgun9mm"
     },
     "hasGlow": false,
     "animation": "crossbow",

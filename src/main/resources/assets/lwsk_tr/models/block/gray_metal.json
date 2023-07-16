@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lwsk_tr:blocks/gray_metal",
+    "up": "lwsk_tr:blocks/gray_metal",
+    "north": "lwsk_tr:blocks/gray_metal",
+    "east": "lwsk_tr:blocks/gray_metal",
+    "south": "lwsk_tr:blocks/gray_metal",
+    "west": "lwsk_tr:blocks/gray_metal",
+    "particle": "lwsk_tr:blocks/gray_metal"
+  }
+}

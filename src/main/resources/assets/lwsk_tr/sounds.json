@@ -8,5 +8,35 @@
         "stream": false
       }
     ]
+  },
+  "ammoremove": {
+    "category": "master",
+    "subtitle": "subtitles.ammoremove",
+    "sounds": [
+      {
+        "name": "lwsk_tr:ammo-loaded-into-magazine-1-39781",
+        "stream": false
+      }
+    ]
+  },
+  "ammoreload": {
+    "category": "master",
+    "subtitle": "subtitles.ammoreload",
+    "sounds": [
+      {
+        "name": "lwsk_tr:1911-reload-6248",
+        "stream": false
+      }
+    ]
+  },
+  "shootsgun9mm": {
+    "category": "master",
+    "subtitle": "subtitles.shootsgun9mm",
+    "sounds": [
+      {
+        "name": "lwsk_tr:9mm-pistol-shot-6349",
+        "stream": false
+      }
+    ]
   }
 }

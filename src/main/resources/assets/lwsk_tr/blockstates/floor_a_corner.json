@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lwsk_tr:block/floor_a_corner"
+    },
+    "facing=east": {
+      "model": "lwsk_tr:block/floor_a_corner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lwsk_tr:block/floor_a_corner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lwsk_tr:block/floor_a_corner",
+      "y": 270
+    }
+  }
+}

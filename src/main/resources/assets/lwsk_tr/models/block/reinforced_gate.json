@@ -1,0 +1,10 @@
+{
+  "parent": "lwsk_tr:custom/small_reinforced_glass_block",
+  "textures": {
+    "all": "lwsk_tr:blocks/gate_texture",
+    "particle": "lwsk_tr:blocks/gate_texture",
+    "0": "lwsk_tr:blocks/gate_bottom",
+    "1": "lwsk_tr:blocks/gate_texture",
+    "2": "lwsk_tr:blocks/gate_top"
+  }
+}

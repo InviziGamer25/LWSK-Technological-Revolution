@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk_tr:custom/rda_pc",
+  "textures": {
+    "all": "lwsk_tr:blocks/operational_pc_on",
+    "particle": "lwsk_tr:blocks/operational_pc_on",
+    "0": "lwsk_tr:blocks/operational_pc_on"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "lwsk_tr:custom/reinforced_concrete",
+  "textures": {
+    "all": "lwsk_tr:blocks/black_concrete_powder",
+    "particle": "lwsk_tr:blocks/black_concrete_powder",
+    "4": "lwsk_tr:blocks/black_concrete_powder",
+    "5": "lwsk_tr:blocks/reinforced_steel_bars"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lwsk_tr:block/gray_metal_slab"
+    },
+    "type=top": {
+      "model": "lwsk_tr:block/gray_metal_slab_top"
+    },
+    "type=double": {
+      "model": "lwsk_tr:block/gray_metal_slab_full"
+    }
+  }
+}

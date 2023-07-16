@@ -1,0 +1,8 @@
+{
+  "parent": "lwsk_tr:custom/ceiling_light",
+  "textures": {
+    "all": "lwsk_tr:blocks/ceiling_lamp_texture",
+    "particle": "lwsk_tr:blocks/ceiling_lamp_texture",
+    "0": "lwsk_tr:blocks/ceiling_lamp_texture"
+  }
+}

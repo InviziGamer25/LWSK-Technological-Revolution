@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "lwsk_tr:blocks/green_metal",
+    "top": "lwsk_tr:blocks/green_metal",
+    "side": "lwsk_tr:blocks/green_metal"
+  }
+}

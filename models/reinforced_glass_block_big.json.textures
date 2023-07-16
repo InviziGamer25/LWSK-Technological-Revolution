@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "gray_concrete_powder",
+        "2": "gray_stained_glass"
+      },
+      "name": "default"
+    }
+  }
+}

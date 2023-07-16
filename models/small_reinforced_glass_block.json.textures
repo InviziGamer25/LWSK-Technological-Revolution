@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gray_concrete_powder",
+        "1": "gray_stained_glass",
+        "2": "gray_stained_glass_pane_top"
+      },
+      "name": "default"
+    },
+    "gate": {
+      "map": {
+        "0": "gate_bottom",
+        "1": "gate_texture",
+        "2": "gate_top"
+      },
+      "name": "gate"
+    }
+  }
+}

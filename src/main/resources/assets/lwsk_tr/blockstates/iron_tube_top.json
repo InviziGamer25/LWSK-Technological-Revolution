@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lwsk_tr:block/iron_tube_top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lwsk_tr:block/iron_tube_top"
+    },
+    "axis=z": {
+      "model": "lwsk_tr:block/iron_tube_top",
+      "x": 90
+    }
+  }
+}

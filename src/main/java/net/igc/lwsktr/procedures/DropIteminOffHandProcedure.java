@@ -94,5 +94,50 @@ public class DropIteminOffHandProcedure {
 				_level.addFreshEntity(entityToSpawn);
 			}
 		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == LwskTrModItems.ASSAULT_RIFLE.get()) {
+			if (entity instanceof LivingEntity _entity) {
+				ItemStack _setstack = (ItemStack.EMPTY);
+				_setstack.setCount(1);
+				_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack);
+				if (_entity instanceof Player _player)
+					_player.getInventory().setChanged();
+			}
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, (y + 1), z, new ItemStack(LwskTrModItems.ASSAULT_RIFLE.get()));
+				entityToSpawn.setPickUpDelay(5);
+				entityToSpawn.setUnlimitedLifetime();
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == LwskTrModItems.ASSAULT_RIFLENOAMMO.get()) {
+			if (entity instanceof LivingEntity _entity) {
+				ItemStack _setstack = (ItemStack.EMPTY);
+				_setstack.setCount(1);
+				_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack);
+				if (_entity instanceof Player _player)
+					_player.getInventory().setChanged();
+			}
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, (y + 1), z, new ItemStack(LwskTrModItems.ASSAULT_RIFLENOAMMO.get()));
+				entityToSpawn.setPickUpDelay(5);
+				entityToSpawn.setUnlimitedLifetime();
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == LwskTrModItems.EXPLOSIVE_ASSAULT_RIFLE.get()) {
+			if (entity instanceof LivingEntity _entity) {
+				ItemStack _setstack = (ItemStack.EMPTY);
+				_setstack.setCount(1);
+				_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack);
+				if (_entity instanceof Player _player)
+					_player.getInventory().setChanged();
+			}
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, (y + 1), z, new ItemStack(LwskTrModItems.EXPLOSIVE_ASSAULT_RIFLE.get()));
+				entityToSpawn.setPickUpDelay(5);
+				entityToSpawn.setUnlimitedLifetime();
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
 	}
 }

@@ -19,6 +19,9 @@ public class LwskTrModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("lwsk_tr", "singlepistol"), new SoundEvent(new ResourceLocation("lwsk_tr", "singlepistol")));
+		REGISTRY.put(new ResourceLocation("lwsk_tr", "ammoremove"), new SoundEvent(new ResourceLocation("lwsk_tr", "ammoremove")));
+		REGISTRY.put(new ResourceLocation("lwsk_tr", "ammoreload"), new SoundEvent(new ResourceLocation("lwsk_tr", "ammoreload")));
+		REGISTRY.put(new ResourceLocation("lwsk_tr", "shootsgun9mm"), new SoundEvent(new ResourceLocation("lwsk_tr", "shootsgun9mm")));
 	}
 
 	@SubscribeEvent

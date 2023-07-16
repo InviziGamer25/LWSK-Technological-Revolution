@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "lwsk_tr:blocks/red_metal",
+    "particle": "lwsk_tr:blocks/red_metal"
+  }
+}
